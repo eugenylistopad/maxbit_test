@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+  margin: 16px 0;
+
+  @media (min-width: 768px) {
+    width: 250px;
+    margin: 0 20px
+  }
+
+  @media (min-width: 1024px) {
+    width: 350px;
+  }
+}
+
+.instructions {
+  margin-top: 16px;
+}
+
+.list {
+  margin-top: 16px;
+}
+
+td {
+  padding: 8px 8px 0 0;
+  width: 100px;
+}

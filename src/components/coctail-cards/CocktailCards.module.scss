@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  flex: 200px auto;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+    > nav {
+      width: 200px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    > div {
+      flex: 1;
+      overflow-y: auto;
+    }
+  }
+}
+
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,14 @@
+.image {
+  width: 150px;
+  height: auto;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+
+  @media (min-width: 768px) {
+    width: 250px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 350px;
+  }
+}

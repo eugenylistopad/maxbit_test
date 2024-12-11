@@ -1,0 +1,14 @@
+.skeleton {
+  height: auto;
+  background-color: #ccc;
+  border-radius: 20px;
+  width: 150px;
+
+  @media (min-width: 768px) {
+    width: 250px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 350px;
+  }
+}
